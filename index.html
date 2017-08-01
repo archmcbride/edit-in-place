@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Edit In Place</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<script type="text/javascript"></script>
-</head>
-<body>
-	<div>
-		<h1>User Profile</h1>
-	</div>
-	<form action = "/user-profile" method="post">
-		<div>
-			<label for="Name">Name:</label>
-			<form action = "/user-profile" method="">
-				
-			</form>
-		</div>
-		<div>
-		 	<h2>About</h2>
-		</div>
-	</form>
-</body>
+	<head>
+		<title>Edit In Place</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		
+	</head>
+	<body>
+		<p id="myNameP">Name</p>
+		<input class="hidden" id="myNameInput">
+
+		<p id="bioP">This is a biography of my accomplishments.</p>
+		<textarea class="hidden" id="bioTextArea"></textarea>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
 </html>
